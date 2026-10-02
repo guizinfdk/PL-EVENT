@@ -1234,7 +1234,7 @@ EggStealBtn.MouseButton1Click:Connect(function()
 		if conn then conn:Disconnect() end
 	end
 
-	task.wait(1)
+	task.wait(0.5)
 
 	EggStealBtn.Text = "VOLTANDO..."
 	local spawn = acharSpawnLocation()
